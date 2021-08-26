@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () =>{
     const quoteContainer = document.querySelector('#citat');
     
     const randomQuote = quoteArray[Math.floor(Math.random() * quoteArray.length)];
-
+    
     quoteContainer.textContent = randomQuote;
-
 });
