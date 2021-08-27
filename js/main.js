@@ -15,7 +15,7 @@ const citatArray = [
 
 function citat() {
 	let findCitat = citatArray[Math.floor(Math.random() * citatArray.length)];
-	// console.log(findCitat);
+	//console.log(findCitat);
 	siteFooter.textContent = citatArray[findCitat];
 }
 citat();
